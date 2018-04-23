@@ -1,0 +1,27 @@
+{
+  "name": "Elemental-HTTP-Server",
+  "version": "1.0.0",
+  "description": "### Basic HTTP Server that reads from and writes to fs",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryosx/Elemental-HTTP-Server.git"
+  },
+  "keywords": [],
+  "author": "Cyrus Wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cryosx/Elemental-HTTP-Server/issues"
+  },
+  "homepage": "https://github.com/cryosx/Elemental-HTTP-Server#readme",
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "supertest": "^3.0.0"
+  }
+}
