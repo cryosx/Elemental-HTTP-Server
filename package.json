@@ -22,6 +22,7 @@
   "homepage": "https://github.com/cryosx/Elemental-HTTP-Server#readme",
   "devDependencies": {
     "mocha": "^5.1.1",
+    "nodemon": "^1.17.3",
     "supertest": "^3.0.0"
   }
 }
