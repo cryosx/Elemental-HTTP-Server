@@ -1,1 +1,1 @@
-module.exports = { GET: 'GET', PUT: 'PUT', POST: 'POST' };
+module.exports = { GET: 'GET', HEAD: 'HEAD', PUT: 'PUT', POST: 'POST' };
