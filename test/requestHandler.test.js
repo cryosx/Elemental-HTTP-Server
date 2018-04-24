@@ -108,3 +108,13 @@ describe('helium.html', function() {
       );
   });
 });
+
+describe('styles.css', function() {
+  it('should return styles.css markup', function(done) {
+    request(server)
+      .get('/css/styles.css')
+      .expect('Content-Type', /css/)
+      .expect(200)
+      .expect(/video/, done);
+  });
+});
